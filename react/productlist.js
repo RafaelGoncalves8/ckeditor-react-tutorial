@@ -5,7 +5,7 @@ const ProductList = ({ products, onClick }) => (
   <div className="app__product-list">
     <h3>Products</h3>
     <ul>
-      {products.map((products) => (
+      {products.map((product) => (
         <li key={product.id}>
           <ProductPreview id={product.id} onClick={onClick} {...product} />
         </li>
