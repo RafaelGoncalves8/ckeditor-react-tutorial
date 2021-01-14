@@ -27,6 +27,8 @@ import ProductPreviewEditing from "./ckeditor/productpreviewediting";
 import ProductList from "./react/productlist";
 import ProductPreview from "./react/productpreview";
 
+import "./assets/style.css";
+
 // The React application class. It renders the editor and the product list.
 class App extends React.Component {
   constructor(props) {
@@ -157,25 +159,25 @@ ReactDOM.render(
         id: 1,
         name: "Colors of summer in Poland",
         price: "$1500",
-        image: "product1.jpg",
+        image: "assets/product1.jpg",
       },
       {
         id: 2,
         name: "Mediterranean sun on Malta",
         price: "$1899",
-        image: "product2.jpg",
+        image: "assets/product2.jpg",
       },
       {
         id: 3,
         name: "Tastes of Asia",
         price: "$2599",
-        image: "product3.jpg",
+        image: "assets/product3.jpg",
       },
       {
         id: 4,
         name: "Exotic India",
         price: "$2200",
-        image: "product4.jpg",
+        image: "assets/product4.jpg",
       },
     ]}
   />,
