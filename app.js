@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // The official <CKEditor> component for React.
-import CKEditor from "@ckeditor/ckeditor5-react";
+import { CKEditor } from "@ckeditor/ckeditor5-react";
 
 // The official CKEditor 5 instance inspector. It helps understand the editor view and model.
 import CKEditorInspector from "@ckeditor/ckeditor5-inspector";
